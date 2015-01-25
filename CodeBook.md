@@ -90,14 +90,14 @@ tBodyGyroJerkMean
 
 
 1.4 The 4th step was to label the new data with descriptive variable name.
-# One part of labeling the variabless has been already done in step 1. However the labeling provided by the file features_info.txt present some anomalies that need to be fixed in order to simplify the names and increase their meanings.
-# We first detect some patterns in the variable names that should be removed as the brackets "()" and some names duplicate as "Body", then we replace the "-" by the "." notation as it is adviced in the the R guidlines.
+- One part of labeling the variabless has been already done in step 1. However the labeling provided by the file features_info.txt present some anomalies that need to be fixed in order to simplify the names and increase their meanings.
+- We first detect some patterns in the variable names that should be removed as the brackets "()" and some names duplicate as "Body", then we replace the "-" by the "." notation as it is adviced in the the R guidlines.
 
 
 
 2. Creating a second, independent tidy data set with the average of each variable for each activity and each subject: 
 ======================================================================================================================
-# To create this new tidy data set we first grouped the data by activity and subject and then summarize each variable by applying the mean function
+- To create this new tidy data set we first grouped the data by activity and subject and then summarize each variable by applying the mean function
 the result was a tidy data set with 180 records (30 subject * 6 activities) and 68 variables describer below :
 
 body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) 
