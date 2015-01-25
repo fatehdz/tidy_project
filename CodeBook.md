@@ -109,72 +109,72 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
- #[1] "subject"              
- #[2] "activity.labels"      
- #[3] "tBodyAcc.mean.X" : Average of average body acceleration signal for x axis (Time domaine signals).
- #[4] "tBodyAcc.mean.Y" : Average of average body acceleration signal for y axis (Time domaine signals).   
- #[5] "tBodyAcc.mean.Z" : Average of average body acceleration signal for z axis (Time domaine signals).    
- #[6] "tBodyAcc.std.X"  : Average of student-deviation of body acceleration signal for x axis (Time domaine signals).     
- #[7] "tBodyAcc.std.Y"  : Average of student-deviation of body acceleration signal for y axis (Time domaine signals).    
- #[8] "tBodyAcc.std.Z"  : Average of student-deviation of bosy acceleration signal for z axis (Time domaine signals).    
- #[9] "tGravityAcc.mean.X" : Average of average gravity acceleration signal for x axis (Time domaine signals).
-#[10] "tGravityAcc.mean.Y" : Average of average gravity acceleration signal for y axis (Time domaine signals).    
-#[11] "tGravityAcc.mean.Z" : Average of average gravity acceleration signal for z axis (Time domaine signals).  
-#[12] "tGravityAcc.std.X"  : Average of student-deviation of gravity acceleration signal for x axis (Time domaine signals). 
-#[13] "tGravityAcc.std.Y"  : Average of student-deviation of gravity acceleration signal for y axis (Time domaine signals). 
-#[14] "tGravityAcc.std.Z"  : Average of student-deviation of gravity acceleration signal for y axis (Time domaine signals). 
-#[15] "tBodyAccJerk.mean.X" : Average of average body acceleration jerk signal for x axis (Time domaine signals).
-#[16] "tBodyAccJerk.mean.Y" : Average of average body acceleration jerk signal for y axis (Time domaine signals).
-#[17] "tBodyAccJerk.mean.Z" : Average of average body acceleration jerk signal for z axis (Time domaine signals).
-#[18] "tBodyAccJerk.std.X"  : Average of student-deviation of body acceleration jerk signal for x axis (Time domaine signals). 
-#[19] "tBodyAccJerk.std.Y"  : Average of student-deviation of body acceleration jerk signal for y axis (Time domaine signals). 
-#[20] "tBodyAccJerk.std.Z"  : Average of student-deviation of body acceleration jerk signal for z axis (Time domaine signals). 
-#[21] "tBodyGyro.mean.X"    : Average of average body angular velocity signal for x axis (Time domaine signals).
-#[22] "tBodyGyro.mean.Y"    : Average of average body angular velocity signal for y axis (Time domaine signals).
-#[23] "tBodyGyro.mean.Z"    : Average of average body angular velocity signal for z axis (Time domaine signals).
-#[24] "tBodyGyro.std.X"     : Average of student-deviation of body angular velocity signal for x axis (Time domaine signals).
-#[25] "tBodyGyro.std.Y"     : Average of student-deviation of body angular velocity signal for y axis (Time domaine signals).
-#[26] "tBodyGyro.std.Z"     : Average of student-deviation of body angular velocity signal for z axis (Time domaine signals).
-#[27] "tBodyGyroJerk.mean.X" : Average of average body angular velocity Jerk signal for x axis (Time domaine signals).
-#[28] "tBodyGyroJerk.mean.Y" : Average of average body angular velocity Jerk signal for y axis (Time domaine signals).
-#[29] "tBodyGyroJerk.mean.Z" : Average of average body angular velocity Jerk signal for z axis (Time domaine signals).
-#[30] "tBodyGyroJerk.std.X"  : Average of student-deviation of body angular velocity Jerk signal for x axis (Time domaine signals).
-#[31] "tBodyGyroJerk.std.Y"  : Average of student-deviation of body angular velocity Jerk signal for y axis (Time domaine signals).
-#[32] "tBodyGyroJerk.std.Z"  : Average of student-deviation of body angular velocity Jerk signal for z axis (Time domaine signals).
-#[33] "tBodyAccMag.mean"     : Average of average body acceleration magnitude signal (Time domaine signals).
-#[34] "tBodyAccMag.std"      : Average of student-deviation of body acceleration magnitude signal (Time domaine signals).
-#[35] "travityAccMag.mean"  : Average of average gravity acceleration magnitude signal (Time domaine signals).
-#[36] "travityAccMag.std"   : Average of student-deviation of  gravity acceleration magnitude signal (Time domaine signals).
-#[37] "tBodyAccJerkMag.mean" : Average of average body acceleration jerk magnitude signal (Time domaine signals).
-#[38] "tBodyAccJerkMag.std"  : Average of student-deviation of body acceleration magnitude jerk signal (Time domaine signals).
-#[39] "tBodyGyroMag.mean"    : Average of average gravity acceleration magnitude signal (Time domaine signals).
-#[40] "tBodyGyroMag.std"     : Average of student-deviation of  gravity acceleration magnitude signal (Time domaine signals).
-#[41] "tBodyGyroJerkMag.mean" : Average of average gravity acceleration magnitude  jerk signal (Time domaine signals).
-#[42] "tBodyGyroJerkMag.std"  : Average of student-deviation of  gravity acceleration magnitude  jerk signal (Time domaine signals).
-#[43] "fBodyAcc.mean.X" : Average of average body acceleration signal for x axis (frequency domain signals).
-#[44] "fBodyAcc.mean.Y" : Average of average body acceleration signal for y axis (frequency domain signals).
-#[45] "fBodyAcc.mean.Z" : Average of average body acceleration signal for z axis (frequency domain signals).
-#[46] "fBodyAcc.std.X"  : Average of student-deviation of  body acceleration signal for x axis (frequency domain signals).
-#[47] "fBodyAcc.std.Y"  : Average of student-deviation of  body acceleration signal for y axis (frequency domain signals).     
-#[48] "fBodyAcc.std.Z"  : Average of student-deviation of  body acceleration signal for z axis (frequency domain signals).
-#[49] "fBodyAccJerk.mean.X" : Average of average body acceleration jerk signal for x axis (frequency domain signals). 
-#[50] "fBodyAccJerk.mean.Y" : Average of average body acceleration jerk signal for y axis (frequency domain signals).
-#[51] "fBodyAccJerk.mean.Z" : Average of average body acceleration jerk signal for z axis (frequency domain signals).
-#[52] "fBodyAccJerk.std.X"  : Average of student-deviation of body acceleration jerk signal for x axis (frequency domain signals). 
-#[53] "fBodyAccJerk.std.Y"  : Average of student-deviation of body acceleration jerk signal for y axis (frequency domain signals). 
-#[54] "fBodyAccJerk.std.Z"  : Average of student-deviation of body acceleration jerk signal for z axis (frequency domain signals). 
-#[55] "fBodyGyro.mean.X"    : Average of average body angular velocity signal for x axis (frequency domain signals).
-#[56] "fBodyGyro.mean.Y"    : Average of average body angular velocity signal for y axis (frequency domain signals).
-#[57] "fBodyGyro.mean.Z"    : Average of average body angular velocity signal for z axis (frequency domain signals).
-#[58] "fBodyGyro.std.X"     : Average of student-deviation of body angular velocity signal for x axis (frequency domain signals).
-#[59] "fBodyGyro.std.Y"     : Average of student-deviation of body angular velocity signal for y axis (frequency domain signals)..
-#[60] "fBodyGyro.std.Z"     : Average of student-deviation of body angular velocity signal for z axis (frequency domain signals)..
-#[61] "fBodyAccMag.mean"     : Average of average body acceleration magnitude signal (frequency domain signals).
-#[62] "fBodyAccMag.std"      : Average of student-deviation of body acceleration magnitude signal (frequency domain signals).
-#[63] "fBodyAccJerkMag.mean" : Average of average body acceleration jerk magnitude signal (frequency domain signals).
-#[64] "fBodyAccJerkMag.std"  : Average of student-deviation of body acceleration magnitude jerk signal (frequency domain signals).
-#[65] "fBodyGyroMag.mean"    : Average of average gravity acceleration magnitude signal (frequency domain signals).
-#[66] "fBodyGyroMag.std"     : Average of student-deviation of  gravity acceleration magnitude signal (frequency domain signals).
-#[67] "tBodyGyroJerkMag.mean" : Average of average gravity acceleration magnitude  jerk signal (frequency domain signals)..
-#[68] "tBodyGyroJerkMag.std"  : Average of student-deviation of  gravity acceleration magnitude  jerk signal (frequency domain signals).
+ - [1] "subject"         : subject id of the person invovled in the experiment     
+ - [2] "activity.labels" : names of the activity ("LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS")
+ - [3] "tBodyAcc.mean.X" : Average of average body acceleration signal for x axis (Time domaine signals).
+ - [4] "tBodyAcc.mean.Y" : Average of average body acceleration signal for y axis (Time domaine signals).   
+ - [5] "tBodyAcc.mean.Z" : Average of average body acceleration signal for z axis (Time domaine signals).    
+ - [6] "tBodyAcc.std.X"  : Average of student-deviation of body acceleration signal for x axis (Time domaine signals).     
+ - [7] "tBodyAcc.std.Y"  : Average of student-deviation of body acceleration signal for y axis (Time domaine signals).    
+ - [8] "tBodyAcc.std.Z"  : Average of student-deviation of bosy acceleration signal for z axis (Time domaine signals).    
+ - [9] "tGravityAcc.mean.X" : Average of average gravity acceleration signal for x axis (Time domaine signals).
+- [10] "tGravityAcc.mean.Y" : Average of average gravity acceleration signal for y axis (Time domaine signals).    
+- [11] "tGravityAcc.mean.Z" : Average of average gravity acceleration signal for z axis (Time domaine signals).  
+- [12] "tGravityAcc.std.X"  : Average of student-deviation of gravity acceleration signal for x axis (Time domaine signals). 
+- [13] "tGravityAcc.std.Y"  : Average of student-deviation of gravity acceleration signal for y axis (Time domaine signals). 
+- [14] "tGravityAcc.std.Z"  : Average of student-deviation of gravity acceleration signal for y axis (Time domaine signals). 
+- [15] "tBodyAccJerk.mean.X" : Average of average body acceleration jerk signal for x axis (Time domaine signals).
+- [16] "tBodyAccJerk.mean.Y" : Average of average body acceleration jerk signal for y axis (Time domaine signals).
+- [17] "tBodyAccJerk.mean.Z" : Average of average body acceleration jerk signal for z axis (Time domaine signals).
+- [18] "tBodyAccJerk.std.X"  : Average of student-deviation of body acceleration jerk signal for x axis (Time domaine signals). 
+- [19] "tBodyAccJerk.std.Y"  : Average of student-deviation of body acceleration jerk signal for y axis (Time domaine signals). 
+- [20] "tBodyAccJerk.std.Z"  : Average of student-deviation of body acceleration jerk signal for z axis (Time domaine signals). 
+- [21] "tBodyGyro.mean.X"    : Average of average body angular velocity signal for x axis (Time domaine signals).
+- [22] "tBodyGyro.mean.Y"    : Average of average body angular velocity signal for y axis (Time domaine signals).
+- [23] "tBodyGyro.mean.Z"    : Average of average body angular velocity signal for z axis (Time domaine signals).
+- [24] "tBodyGyro.std.X"     : Average of student-deviation of body angular velocity signal for x axis (Time domaine signals).
+- [25] "tBodyGyro.std.Y"     : Average of student-deviation of body angular velocity signal for y axis (Time domaine signals).
+- [26] "tBodyGyro.std.Z"     : Average of student-deviation of body angular velocity signal for z axis (Time domaine signals).
+- [27] "tBodyGyroJerk.mean.X" : Average of average body angular velocity Jerk signal for x axis (Time domaine signals).
+- [28] "tBodyGyroJerk.mean.Y" : Average of average body angular velocity Jerk signal for y axis (Time domaine signals).
+- [29] "tBodyGyroJerk.mean.Z" : Average of average body angular velocity Jerk signal for z axis (Time domaine signals).
+- [30] "tBodyGyroJerk.std.X"  : Average of student-deviation of body angular velocity Jerk signal for x axis (Time domaine signals).
+- [31] "tBodyGyroJerk.std.Y"  : Average of student-deviation of body angular velocity Jerk signal for y axis (Time domaine signals).
+- [32] "tBodyGyroJerk.std.Z"  : Average of student-deviation of body angular velocity Jerk signal for z axis (Time domaine signals).
+- [33] "tBodyAccMag.mean"     : Average of average body acceleration magnitude signal (Time domaine signals).
+- [34] "tBodyAccMag.std"      : Average of student-deviation of body acceleration magnitude signal (Time domaine signals).
+- [35] "travityAccMag.mean"  : Average of average gravity acceleration magnitude signal (Time domaine signals).
+- [36] "travityAccMag.std"   : Average of student-deviation of  gravity acceleration magnitude signal (Time domaine signals).
+- [37] "tBodyAccJerkMag.mean" : Average of average body acceleration jerk magnitude signal (Time domaine signals).
+- [38] "tBodyAccJerkMag.std"  : Average of student-deviation of body acceleration magnitude jerk signal (Time domaine signals).
+- [39] "tBodyGyroMag.mean"    : Average of average gravity acceleration magnitude signal (Time domaine signals).
+- [40] "tBodyGyroMag.std"     : Average of student-deviation of  gravity acceleration magnitude signal (Time domaine signals).
+- [41] "tBodyGyroJerkMag.mean" : Average of average gravity acceleration magnitude  jerk signal (Time domaine signals).
+- [42] "tBodyGyroJerkMag.std"  : Average of student-deviation of  gravity acceleration magnitude  jerk signal (Time domaine signals).
+- [43] "fBodyAcc.mean.X" : Average of average body acceleration signal for x axis (frequency domain signals).
+- [44] "fBodyAcc.mean.Y" : Average of average body acceleration signal for y axis (frequency domain signals).
+- [45] "fBodyAcc.mean.Z" : Average of average body acceleration signal for z axis (frequency domain signals).
+- [46] "fBodyAcc.std.X"  : Average of student-deviation of  body acceleration signal for x axis (frequency domain signals).
+- [47] "fBodyAcc.std.Y"  : Average of student-deviation of  body acceleration signal for y axis (frequency domain signals).     
+- [48] "fBodyAcc.std.Z"  : Average of student-deviation of  body acceleration signal for z axis (frequency domain signals).
+- [49] "fBodyAccJerk.mean.X" : Average of average body acceleration jerk signal for x axis (frequency domain signals). 
+- [50] "fBodyAccJerk.mean.Y" : Average of average body acceleration jerk signal for y axis (frequency domain signals).
+- [51] "fBodyAccJerk.mean.Z" : Average of average body acceleration jerk signal for z axis (frequency domain signals).
+- [52] "fBodyAccJerk.std.X"  : Average of student-deviation of body acceleration jerk signal for x axis (frequency domain signals). 
+- [53] "fBodyAccJerk.std.Y"  : Average of student-deviation of body acceleration jerk signal for y axis (frequency domain signals). 
+- [54] "fBodyAccJerk.std.Z"  : Average of student-deviation of body acceleration jerk signal for z axis (frequency domain signals). 
+- [55] "fBodyGyro.mean.X"    : Average of average body angular velocity signal for x axis (frequency domain signals).
+- [56] "fBodyGyro.mean.Y"    : Average of average body angular velocity signal for y axis (frequency domain signals).
+- [57] "fBodyGyro.mean.Z"    : Average of average body angular velocity signal for z axis (frequency domain signals).
+- [58] "fBodyGyro.std.X"     : Average of student-deviation of body angular velocity signal for x axis (frequency domain signals).
+- [59] "fBodyGyro.std.Y"     : Average of student-deviation of body angular velocity signal for y axis (frequency domain signals)..
+- [60] "fBodyGyro.std.Z"     : Average of student-deviation of body angular velocity signal for z axis (frequency domain signals)..
+- [61] "fBodyAccMag.mean"     : Average of average body acceleration magnitude signal (frequency domain signals).
+- [62] "fBodyAccMag.std"      : Average of student-deviation of body acceleration magnitude signal (frequency domain signals).
+- [63] "fBodyAccJerkMag.mean" : Average of average body acceleration jerk magnitude signal (frequency domain signals).
+- [64] "fBodyAccJerkMag.std"  : Average of student-deviation of body acceleration magnitude jerk signal (frequency domain signals).
+- [65] "fBodyGyroMag.mean"    : Average of average gravity acceleration magnitude signal (frequency domain signals).
+- [66] "fBodyGyroMag.std"     : Average of student-deviation of  gravity acceleration magnitude signal (frequency domain signals).
+- [67] "tBodyGyroJerkMag.mean" : Average of average gravity acceleration magnitude  jerk signal (frequency domain signals).
+- [68] "tBodyGyroJerkMag.std"  : Average of student-deviation of  gravity acceleration magnitude  jerk signal (frequency domain signals).
 
